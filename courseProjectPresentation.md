@@ -27,7 +27,6 @@ The outcome of the plot shows in a selected time period
 ========================================================
 - The relationship between Ozone and Temperature or Solar.R and Temperature
 - The highest and lowest temperature and their difference
-
 ![my image](outputfile.png)
 
 
