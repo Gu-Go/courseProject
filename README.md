@@ -18,3 +18,5 @@ The outcome of the plot shows:
 3. The difference between the highest and lowest temperature in the selected time period
 
 The app presentation file can be found at:  http://rpubs.com/EllaDataScience/ProjectPresentation 
+
+The app is running at:  https://elladatascience.shinyapps.io/airpollution/
