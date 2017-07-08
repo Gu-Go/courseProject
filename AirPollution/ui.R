@@ -43,11 +43,13 @@ shinyUI(fluidPage(
 
     # Show a plot of the generated distribution
     mainPanel(
-            h3("Graph of New York Air Quality for 1973"),
+            h4("Graph of New York Air Quality for 1973"),
+            h6("To use the app: Select a specific Month or All months, check the variable that will be plotted with Temperature"),
+            h6("Then, check the box 'Display data based on the Wind value' to see data plotted based on the Wind size."),
+            h6("Last, check the box to add the regression line to view the line"),
             plotOutput("distPlot"),
             h5(textOutput("out1")),
-            h5(textOutput("out2")),
-            h5(textOutput("out3"))
+            h5(textOutput("out2"))
     )
   )
 ))

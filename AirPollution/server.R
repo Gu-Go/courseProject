@@ -46,22 +46,14 @@ shinyServer(function(input, output) {
            else
                 df <- airquality
            highTemp <- max(unlist(df$Temp),na.rm = TRUE)
+           lowTemp <- min(unlist(df$Temp),na.rm = TRUE)
            paste("The highest temperature for the selected
-                 time frame is: ", highTemp)
+                 time frame is: ", highTemp,
+                 "The lowest temperature for the selected
+                 time frame is: ", lowTemp)
         })
 
         output$out2 <- renderText({
-                month <- input$months
-                if (month!="1")
-                        df <- airquality[airquality$Month==month, ]
-                else
-                        df <- airquality
-                lowTemp <- min(unlist(df$Temp),na.rm = TRUE)
-                paste("The highest temperature for the selected
-                      time frame is: ", lowTemp)
-        })
-
-        output$out3 <- renderText({
                 month <- input$months
                 if (month!="1")
                         df <- airquality[airquality$Month==month, ]
