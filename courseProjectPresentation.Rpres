@@ -15,6 +15,8 @@ New York Air Quality Analysis
 
 **The complete source code is located at https://github.com/Gu-Go/courseProject.git
 
+**The app is located at: https://elladatascience.shinyapps.io/airpollution/
+
 To Use the App
 ========================================================
 - Select a specific Month or "All months"
